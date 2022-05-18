@@ -31,8 +31,6 @@ function starClick(input) {
 
   for (let i = 0; i <= newRating - 1; i++) {
     stars[i].classList.remove("glow-off");
-
     stars[i].classList.add("glow");
   }
 }
-
