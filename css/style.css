@@ -4,20 +4,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(119, 119, 119);
   font-family: monospace;
+    background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
 }
 
 .app-border {
   height: 550px;
   width: 400px;
-  border: solid black 3px;
-  padding: 5px;
+  border: solid rgb(117, 117, 117) 3px;
+  border-radius: 12px;
+  /* padding: 5px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   background-color: rgb(255, 255, 252);
+  box-shadow: 3px 2px 6px 2px rgb(54, 54, 54);
 }
 
 .navbar {
@@ -51,7 +53,7 @@
   align-items: center;
   padding: 20px;
   border-radius: 75px;
-  border: 3px solid rgb(188, 188, 255);
+  border: 3px solid rgb(165, 165, 255);
 }
 
 .glow {
