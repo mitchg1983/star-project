@@ -17,19 +17,21 @@
         </div>
 
         <div class="selector-field">
-          <button onClick="removeStar()">Remove a Star</button>
+          <button class="button" onClick="starClick('remove')">
+            Remove a Star
+          </button>
 
-          <div class="star-rating" id="StarOutput">5</div>
+          <div class="star-rating" id="StarOutput">1</div>
 
-          <button onClick="starClick('add')">Add a Star</button>
+          <button class="button" onClick="starClick('add')">Add a Star</button>
         </div>
 
         <div class="star-field">
-          <div class="star oneS">*</div>
-          <div class="star twoS">*</div>
-          <div class="star threeS">*</div>
-          <div class="star fourS">*</div>
-          <div class="star fiveS">*</div>
+          <div class="star five-pointed-star glow"></div>
+          <div class="star five-pointed-star glow-off"></div>
+          <div class="star five-pointed-star glow-off"></div>
+          <div class="star five-pointed-star glow-off"></div>
+          <div class="star five-pointed-star glow-off"></div>
         </div>
       </div>
     </div>
