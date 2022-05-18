@@ -11,14 +11,13 @@
 .app-border {
   height: 550px;
   width: 400px;
-  border: solid rgb(117, 117, 117) 3px;
+  border: solid rgb(117, 117, 117) 1px;
   border-radius: 12px;
-  /* padding: 5px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(255, 255, 252);
+  background: rgba(255, 255, 255, 0.693);
   box-shadow: 3px 2px 6px 2px rgb(54, 54, 54);
 }
 
@@ -26,10 +25,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(255, 160, 160);
-  border: solid 3px rgb(255, 30, 30);
+  background-color: rgb(255, 160, 209);
+  border: solid 3px rgb(243, 67, 158);
   padding: 10px;
-  height: 40px;
+  height: auto;
   width: 90%;
   border-radius: 20px;
 }
@@ -44,16 +43,18 @@
 
 .star-field {
   display: flex;
-  background-color: rgb(241, 241, 255);
+  background-color: rgb(255, 255, 244);
   width: 85%;
   display: flex;
   justify-content: space-around;
   font-size: 5em;
-  height: 20%;
+  height: 12%;
   align-items: center;
   padding: 20px;
   border-radius: 75px;
-  border: 3px solid rgb(165, 165, 255);
+  border: 2px solid rgb(255, 250, 102);
+  box-shadow: 2px 2px 2px 2px rgba(54, 54, 54, 0.384);
+
 }
 
 .glow {
@@ -111,4 +112,20 @@
   border-left: 1em solid transparent;
   transform: rotate(-70deg);
   content: "";
+}
+
+.navbar-logo {
+    height: 200px;
+    /* border: solid 1px white; */
+}
+.navbar-menu {
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+p {
+    margin: 0;
 }

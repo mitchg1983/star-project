@@ -35,3 +35,4 @@ function starClick(input) {
     stars[i].classList.add("glow");
   }
 }
+
