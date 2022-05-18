@@ -12,14 +12,25 @@
       <div class="app-border">
         <div class="navbar">
           <div class="navar-logo">LOGO</div>
+
           <div class="navbar-menu">menu</div>
         </div>
+
         <div class="selector-field">
-          <div class="remove-star">remove 1</div>
-          <div class="star-rating">5</div>
-          <div class="add-star">Add 1</div>
+          <button onClick="removeStar()">Remove a Star</button>
+
+          <div class="star-rating" id="StarOutput">5</div>
+
+          <button onClick="starClick('add')">Add a Star</button>
         </div>
-        <div class="star-field">* * * * *</div>
+
+        <div class="star-field">
+          <div class="star oneS">*</div>
+          <div class="star twoS">*</div>
+          <div class="star threeS">*</div>
+          <div class="star fourS">*</div>
+          <div class="star fiveS">*</div>
+        </div>
       </div>
     </div>
 

@@ -7,12 +7,14 @@
 }
 
 .app-border {
-  height: 55vh;
-  width: 30vw;
-  border: solid red 1px;
+  height: 550px;
+  width: 400px;
+  border: solid black 3px;
   padding: 5px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .navbar {
@@ -22,17 +24,24 @@
   background-color: red;
   padding: 10px;
   height: 40px;
-  border-bottom: 100px;
+  width: 90%;
 }
 
 .selector-field {
   display: flex;
-  border: solid 1px green;
   justify-content: space-between;
   height: auto;
+  width: 75%;
 }
 
 .star-field {
   display: flex;
-  justify-content: center;
+  background-color: blue;
+  width: 75%;
+  color: yellow;
+  display: flex;
+  justify-content: space-around;
+  font-size: 5em;
+  height: 20%;
+  align-items: center;
 }
